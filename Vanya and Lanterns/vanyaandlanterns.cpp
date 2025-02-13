@@ -19,7 +19,9 @@ int main(){
     }
 
     for(int i = 0; i < n; i++){
-        if(arr[i+1] - arr[i] > c)
+        if(arr[i+1] - arr[i] > c){
+            c = arr[i+1] - arr[i];
+        }
     }
 
     return 0;
