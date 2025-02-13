@@ -24,6 +24,9 @@ int main(){
         }
     }
     double a = arr[0];
+    double b = (double)c / 2;
+    double result = max(a,b);
+
 
     return 0;
 }
