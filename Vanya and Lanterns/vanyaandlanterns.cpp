@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -26,6 +26,11 @@ int main(){
     double a = arr[0];
     double b = (double)c / 2;
     double result = max(a,b);
+    double d = l - arr[n-1];
+
+    result = max(d, result);
+
+    cout << fixed <<setprecision(10) << result << endl;
 
 
     return 0;
