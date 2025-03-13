@@ -9,5 +9,7 @@ int main(){
     int cost2 = ((n + m - 1) + b);
     int cost3 = (n / m) * b + (n % m) * a;
 
+    int min_cost = min(cost1, cost2, cost3);
+
     return 0;
 }
