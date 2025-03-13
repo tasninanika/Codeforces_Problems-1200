@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<algorithm>
 using namespace std;
 
 int main(){
@@ -9,7 +10,7 @@ int main(){
     int cost2 = ((n + m - 1) / m) * b;
     int cost3 = (n / m) * b + (n % m) * a;
 
-    int min_cost = min(cost1, cost2, cost3);
+    int min_cost = min{(cost1, cost2, cost3)};
 
     cout << min_cost << endl;
 
