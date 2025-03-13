@@ -11,5 +11,7 @@ int main(){
 
     int min_cost = min(cost1, cost2, cost3);
 
+    cout << min_cost << endl;
+
     return 0;
 }
