@@ -6,19 +6,13 @@ int main(){
     cin >> t;
 
     while(t--){
-        int n, k;
+        long long n, k;
         cin >> n >> k;
 
-        vector<int> arr;
-        int num = 1;
-        while(arr.size() < k){
-            if(num % n != 0){
-                arr.push_back(num);
-            }
-            num++;
-        }
+        long long result = k + (k / (n - 1));
 
-        cout << arr[k - 1] << endl;
+
+        cout << result << endl;
     }
 
     return 0;
