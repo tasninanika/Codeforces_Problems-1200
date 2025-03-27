@@ -6,7 +6,7 @@ int main(){
     cin >> t;
 
     while(t--){
-        int k;
+        int n, k;
         cin >> k;
 
         vector<int> arr;
