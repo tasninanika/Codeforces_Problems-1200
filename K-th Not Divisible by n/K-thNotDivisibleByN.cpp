@@ -15,6 +15,7 @@ int main(){
             if(num % 3 == 0){
                 arr.push_back(num);
             }
+            num++;
         }
     }
 
