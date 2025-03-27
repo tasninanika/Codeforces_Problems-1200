@@ -17,6 +17,8 @@ int main(){
             }
             num++;
         }
+
+        cout << arr[k] << endl;
     }
 
     return 0;
