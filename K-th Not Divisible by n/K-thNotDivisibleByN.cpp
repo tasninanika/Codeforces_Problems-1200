@@ -10,6 +10,9 @@ int main(){
         cin >> k;
 
         vector<int> arr
+        for(int i = 0; i < k; i++){
+
+        }
     }
 
     return 0;
