@@ -12,7 +12,7 @@ int main(){
         vector<int> arr;
         int num = 1;
         while(arr.size() < k){
-            if(num % 3 != 0){
+            if(num % n != 0){
                 arr.push_back(num);
             }
             num++;
