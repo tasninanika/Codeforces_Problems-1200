@@ -13,7 +13,7 @@ int main(){
         int num = 3;
         for(int i = 0; i < k; i++){
             if(num % 3 == 0){
-
+                arr.push_back(num);
             }
         }
     }
