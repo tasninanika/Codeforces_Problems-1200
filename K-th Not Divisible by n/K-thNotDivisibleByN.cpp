@@ -10,7 +10,7 @@ int main(){
         cin >> k;
 
         vector<int> arr;
-        int num = 3;
+        int num = 1;
         while(arr.size() < k){
             if(num % 3 != 0){
                 arr.push_back(num);
