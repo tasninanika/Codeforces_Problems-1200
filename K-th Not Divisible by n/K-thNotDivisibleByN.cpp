@@ -7,7 +7,7 @@ int main(){
 
     while(t--){
         int n, k;
-        cin >> k;
+        cin >> n >> k;
 
         vector<int> arr;
         int num = 1;
