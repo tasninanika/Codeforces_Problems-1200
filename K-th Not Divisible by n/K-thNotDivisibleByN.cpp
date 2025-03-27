@@ -9,7 +9,7 @@ int main(){
         int k;
         cin >> k;
 
-        vector<int> arr
+        vector<int> arr;
         int num = 3;
         for(int i = 0; i < k; i++){
             if(num % 3 == 0){
@@ -18,7 +18,7 @@ int main(){
             num++;
         }
 
-        cout << arr[k] << endl;
+        cout << arr[k - 1] << endl;
     }
 
     return 0;
