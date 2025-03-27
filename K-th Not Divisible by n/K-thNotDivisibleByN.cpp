@@ -11,6 +11,10 @@ int main(){
 
         long long result = k + (k / (n - 1));
 
+        if (k % (n - 1) == 0) {
+            result--;
+        }
+
 
         cout << result << endl;
     }
