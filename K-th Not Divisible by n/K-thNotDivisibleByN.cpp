@@ -12,7 +12,9 @@ int main(){
         vector<int> arr
         int num = 3;
         for(int i = 0; i < k; i++){
-            if()
+            if(num % 3 == 0){
+
+            }
         }
     }
 
