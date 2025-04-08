@@ -19,5 +19,7 @@ int main(){
 
     }
 
+    cout << x << endl;
+
     return 0;
 }
