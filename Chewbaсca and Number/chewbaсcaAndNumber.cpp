@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -6,8 +6,8 @@ int main(){
     cin >> x;
 
     for(int i = 0; i < x.size(); i++){
-        int digit = x[i] - '0';
-        int inverted = 9 - digit;
+         int digit = stoi(string(1, x[i]));
+         int inverted = 9 - digit;
 
         if(i == 0 && digit == 9){
             continue;
