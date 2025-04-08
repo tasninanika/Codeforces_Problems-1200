@@ -13,6 +13,10 @@ int main(){
             continue;
         }
 
+        if(inverted < digit){
+
+        }
+
     }
 
     return 0;
