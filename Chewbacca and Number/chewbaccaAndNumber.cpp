@@ -14,7 +14,7 @@ int main(){
         }
 
         if(inverted < digit){
-            x[i] = inverted + '0';
+            x[i] = inverted;
         }
 
     }
