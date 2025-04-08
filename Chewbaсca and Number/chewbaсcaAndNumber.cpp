@@ -5,8 +5,9 @@ int main(){
     string x;
     cin >> x;
 
-    x =
+    for(int i = 0; i < x.size(); i++){
 
+    }
 
     return 0;
 }
