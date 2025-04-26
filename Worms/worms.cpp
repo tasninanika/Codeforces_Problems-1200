@@ -30,6 +30,9 @@ int main(){
                 ans = mid;
                 right = mid - 1;
             }
+            else{
+                left = mid + 1;
+            }
         }
     }
 
