@@ -21,6 +21,7 @@ int main(){
     cin >> m;
     while(m--){
         int w;
+        cin >> w;
     }
 
     return 0;
