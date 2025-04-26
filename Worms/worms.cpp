@@ -12,6 +12,9 @@ int main(){
         if(i == 0){
             prefix[i] = a[i];
         }
+        else{
+            prefix[i] = prefix[i - 1] + a[i];
+        }
     }
 
     return 0;
