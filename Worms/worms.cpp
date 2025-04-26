@@ -10,7 +10,7 @@ int main(){
     for(int i = 0; i < n; i++){
         cin >> a[i];
         if(i == 0){
-
+            prefix[i] = a[i];
         }
     }
 
