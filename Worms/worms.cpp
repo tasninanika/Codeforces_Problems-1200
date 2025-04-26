@@ -24,6 +24,9 @@ int main(){
         cin >> w;
 
         int left = 0, right = n - 1; ans = -1;
+        while(left <= right){
+
+        }
     }
 
     return 0;
