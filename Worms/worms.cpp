@@ -19,6 +19,9 @@ int main(){
 
     int m;
     cin >> m;
+    while(m--){
+
+    }
 
     return 0;
 }
