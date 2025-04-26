@@ -8,7 +8,7 @@ int main(){
     int a[n];
     vector<int> prefix(n);
     for(int i = 0; i < n; i++){
-
+        cin >> a[i];
     }
 
     return 0;
