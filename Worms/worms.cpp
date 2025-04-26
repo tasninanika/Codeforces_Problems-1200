@@ -28,6 +28,7 @@ int main(){
             int mid = (left + right) / 2;
             if(w <= prefix[mid]){
                 ans = mid;
+                right = mid - 1;
             }
         }
     }
