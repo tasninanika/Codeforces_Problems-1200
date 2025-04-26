@@ -6,6 +6,7 @@ int main(){
     cin >> n;
 
     int a[n];
+    vector<int> prefix(n);
 
     return 0;
 }
