@@ -20,7 +20,7 @@ int main(){
     int m;
     cin >> m;
     while(m--){
-
+        int w;
     }
 
     return 0;
