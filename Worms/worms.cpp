@@ -7,6 +7,9 @@ int main(){
 
     int a[n];
     vector<int> prefix(n);
+    for(int i = 0; i < n; i++){
+
+    }
 
     return 0;
 }
