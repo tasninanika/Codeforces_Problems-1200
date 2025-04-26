@@ -26,6 +26,9 @@ int main(){
         int left = 0, right = n - 1; ans = -1;
         while(left <= right){
             int mid = (left + right) / 2;
+            if(w <= prefix[mid]){
+
+            }
         }
     }
 
