@@ -16,6 +16,7 @@ int main(){
             cin >> ai;
 
             p += c[ai - i];
+            c[ai - i]++;
         }
     }
 
