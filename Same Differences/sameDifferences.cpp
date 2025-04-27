@@ -14,6 +14,8 @@ int main(){
         for(int i = 0; i < n; i++){
             int ai;
             cin >> ai;
+
+            p += c[ai - i];
         }
     }
 
