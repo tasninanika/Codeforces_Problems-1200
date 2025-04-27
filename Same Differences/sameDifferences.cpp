@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n;
         cin >> n;
+
+        unordered_map<int, ll> c;
     }
 
     return 0;
