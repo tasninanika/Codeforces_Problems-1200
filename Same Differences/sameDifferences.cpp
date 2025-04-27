@@ -10,6 +10,7 @@ int main(){
         cin >> n;
 
         unordered_map<int, ll> c;
+        ll p = 0;
     }
 
     return 0;
