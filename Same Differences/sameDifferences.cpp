@@ -11,6 +11,9 @@ int main(){
 
         unordered_map<int, ll> c;
         ll p = 0;
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
