@@ -18,6 +18,8 @@ int main(){
             p += c[ai - i];
             c[ai - i]++;
         }
+
+        cout << p << endl;
     }
 
     return 0;
