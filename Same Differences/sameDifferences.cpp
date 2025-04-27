@@ -9,8 +9,8 @@ int main(){
         int n;
         cin >> n;
 
-        unordered_map<int, ll> c;
-        ll p = 0;
+        unordered_map<int, long long> c;
+        long long p = 0;
         for(int i = 0; i < n; i++){
             int ai;
             cin >> ai;
