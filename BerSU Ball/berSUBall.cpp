@@ -10,7 +10,7 @@ int main(){
         cin >> a[i];
     }
 
-    int m'
+    int m;
 
     return 0;
 }
