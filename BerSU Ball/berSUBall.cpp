@@ -31,6 +31,9 @@ int main(){
         else if(a[i] < b[j]){
             i++;
         }
+        else{
+            j++;
+        }
     }
 
     return 0;
