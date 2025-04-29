@@ -19,7 +19,7 @@ int main(){
     }
 
     sort(a, a + n);
-    sort(b, b + n);
+    sort(b, b + m);
 
     int i = 0, j = 0, pairs = 0;
     while(i < n && j < m){
