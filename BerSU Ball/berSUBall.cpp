@@ -10,5 +10,7 @@ int main(){
         cin >> a[i];
     }
 
+    int m'
+
     return 0;
 }
