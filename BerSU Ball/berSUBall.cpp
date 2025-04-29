@@ -18,7 +18,7 @@ int main(){
         cin >> b[i];
     }
 
-    sort(a.begin(), a.end());
+    sort(a, a + n);
     sort(b.begin(), b.end());
 
     int i = 0, j = 0, pairs = 0;
