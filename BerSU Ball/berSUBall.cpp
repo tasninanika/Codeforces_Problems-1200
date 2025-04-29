@@ -26,6 +26,7 @@ int main(){
         if(abs(a[i] - b[j]) <= 1){
             pairs++;
             i++;
+            j++;
         }
     }
 
