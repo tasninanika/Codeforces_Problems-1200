@@ -22,6 +22,9 @@ int main(){
     sort(b.begin(), b.end());
 
     int i = 0, j = 0, pairs = 0;
+    while(i < n && j < m){
+
+    }
 
     return 0;
 }
