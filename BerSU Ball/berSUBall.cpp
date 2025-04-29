@@ -36,5 +36,7 @@ int main(){
         }
     }
 
+    cout << pairs << endl;
+
     return 0;
 }
