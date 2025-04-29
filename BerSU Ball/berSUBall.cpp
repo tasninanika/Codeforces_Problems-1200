@@ -19,6 +19,7 @@ int main(){
     }
 
     sort(a.begin(), a.end());
+    sort(b.begin(), b.end());
 
     return 0;
 }
