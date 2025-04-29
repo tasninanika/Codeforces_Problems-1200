@@ -14,6 +14,9 @@ int main(){
     cin >> m;
 
     int b[m];
+    for(int i = 0; i < m; i++){
+
+    }
 
     return 0;
 }
