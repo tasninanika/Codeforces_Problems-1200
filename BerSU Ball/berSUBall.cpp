@@ -29,7 +29,7 @@ int main(){
             j++;
         }
         else if(a[i] < b[j]){
-
+            i++;
         }
     }
 
