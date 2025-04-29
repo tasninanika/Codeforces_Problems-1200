@@ -25,6 +25,7 @@ int main(){
     while(i < n && j < m){
         if(abs(a[i] - b[j]) <= 1){
             pairs++;
+            i++;
         }
     }
 
