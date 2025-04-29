@@ -13,5 +13,7 @@ int main(){
     int m;
     cin >> m;
 
+    int b[m];
+
     return 0;
 }
