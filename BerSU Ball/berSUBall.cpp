@@ -28,6 +28,9 @@ int main(){
             i++;
             j++;
         }
+        else if(a[i] < b[j]){
+
+        }
     }
 
     return 0;
