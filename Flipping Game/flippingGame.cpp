@@ -12,7 +12,7 @@ int main(){
         if(t == 1){
             c++;
             if(extra > 0){
-
+                extra--;
             }
         }
     }
