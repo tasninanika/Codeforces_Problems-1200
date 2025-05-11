@@ -17,7 +17,7 @@ int main(){
             else{
                 extra++;
                 if(extra > max_extra){
-
+                    max_extra = extra;
                 }
             }
         }
