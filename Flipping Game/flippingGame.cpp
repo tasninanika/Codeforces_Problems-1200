@@ -8,7 +8,7 @@ int main(){
     int c = 0, extra = 0, max_extra = -1;
 
     while(n--){
-
+        cin >> t;
     }
 
     return 0;
