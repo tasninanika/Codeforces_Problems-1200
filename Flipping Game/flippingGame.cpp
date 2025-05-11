@@ -14,6 +14,9 @@ int main(){
             if(extra > 0){
                 extra--;
             }
+            else{
+
+            }
         }
     }
 
