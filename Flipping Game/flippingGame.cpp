@@ -11,6 +11,9 @@ int main(){
         cin >> t;
         if(t == 1){
             c++;
+            if(extra > 0){
+
+            }
         }
     }
 
