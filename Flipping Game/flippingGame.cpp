@@ -10,7 +10,7 @@ int main(){
     while(n--){
         cin >> t;
         if(t == 1){
-
+            c++;
         }
     }
 
