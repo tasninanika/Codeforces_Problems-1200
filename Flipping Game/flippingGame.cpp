@@ -23,5 +23,7 @@ int main(){
         }
     }
 
+    cout << c + max_extra << endl;
+
     return 0;
 }
