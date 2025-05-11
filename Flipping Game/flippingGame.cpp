@@ -15,7 +15,7 @@ int main(){
                 extra--;
             }
             else{
-
+                extra++;
             }
         }
     }
