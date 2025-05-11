@@ -9,6 +9,9 @@ int main(){
 
     while(n--){
         cin >> t;
+        if(t == 1){
+
+        }
     }
 
     return 0;
