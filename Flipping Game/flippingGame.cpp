@@ -5,5 +5,7 @@ int main(){
     int n, t;
     cin >> n;
 
+    int c = 0, extra = 0, max_extra = -1;
+
     return 0;
 }
