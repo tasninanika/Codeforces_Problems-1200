@@ -35,7 +35,7 @@ int main(){
         }
         else{
             if(l == 0){
-
+                cout << arr2[r] << endl;
             }
         }
     }
