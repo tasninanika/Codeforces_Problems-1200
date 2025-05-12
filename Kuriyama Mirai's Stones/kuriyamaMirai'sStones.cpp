@@ -12,6 +12,8 @@ int main(){
         arr2[i] = arr[i];
     }
 
+    sort(arr2, arr2 + n);
+
 
     return 0;
 }
