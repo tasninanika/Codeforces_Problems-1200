@@ -5,6 +5,8 @@ int main(){
     int n;
     cin >> n;
 
+    long long arr[n] = {};
+
 
     return 0;
 }
