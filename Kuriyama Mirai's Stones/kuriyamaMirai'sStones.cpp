@@ -15,6 +15,7 @@ int main(){
     sort(arr2, arr2 + n);
     for(int i = 1; i < n; i++){
         arr[i] = arr[i - 1] + arr[i];
+        arr2[i] = arr2[i - 1] + arr2[i];
     }
 
 
