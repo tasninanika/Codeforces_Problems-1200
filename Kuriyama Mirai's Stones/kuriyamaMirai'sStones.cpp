@@ -34,7 +34,9 @@ int main(){
             }
         }
         else{
-            if(l == 0)
+            if(l == 0){
+
+            }
         }
     }
 
