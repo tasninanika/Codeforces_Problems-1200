@@ -18,6 +18,8 @@ int main(){
         arr2[i] = arr2[i - 1] + arr2[i];
     }
 
+    int q;
+
 
     return 0;
 }
