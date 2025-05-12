@@ -38,7 +38,7 @@ int main(){
                 cout << arr2[r] << endl;
             }
             else{
-
+                cout << arr2[r] - arr2[l - 1] << endl;
             }
         }
     }
