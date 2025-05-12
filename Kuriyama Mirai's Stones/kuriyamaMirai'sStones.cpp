@@ -24,6 +24,7 @@ int main(){
         int t, r, l;
 
         l -= 1;
+        r -= 1;
     }
 
 
