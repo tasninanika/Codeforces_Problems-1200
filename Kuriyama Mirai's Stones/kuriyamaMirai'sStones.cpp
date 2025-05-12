@@ -8,7 +8,7 @@ int main(){
     long long arr[n] = {};
     long long arr2[n] = {};
     for(int i = 0; i < n; i++){
-
+        cin >> arr[i];
     }
 
 
