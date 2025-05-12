@@ -6,6 +6,7 @@ int main(){
     cin >> n;
 
     long long arr[n] = {};
+    long long arr2[n] = {};
 
 
     return 0;
