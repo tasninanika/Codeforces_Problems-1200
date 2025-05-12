@@ -1,49 +1,46 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main() {
     int n;
     cin >> n;
 
-    long long arr[n] = {};
-    long long arr2[n] = {};
-    for(int i = 0; i < n; i++){
+    long long arr[n] = {}, arr2[n] = {};
+    for (int i = 0; i < n; i++) {
         cin >> arr[i];
         arr2[i] = arr[i];
     }
 
     sort(arr2, arr2 + n);
-    for(int i = 1; i < n; i++){
-        arr[i] = arr[i - 1] + arr[i];
-        arr2[i] = arr2[i - 1] + arr2[i];
+
+    for (int i = 1; i < n; i++) {
+        arr[i] = arr[i] + arr[i - 1];
+        arr2[i] = arr2[i] + arr2[i - 1];
     }
 
     int q;
     cin >> q;
-    for(int i = 0; i < q; i++){
-        int t, r, l;
-        cin >> t >> r >> l;
 
-        l -= 1;
-        r -= 1;
-        if(t == 1){
-            if(l == 0){
-                cout << arr[r] <<  endl;
-            }
-            else{
+    while (q--) {
+        int t, l, r;
+        cin >> t >> l >> r;
+        l--;
+        r--;
+
+        if (t == 1) {
+            if (l == 0) {
+                cout << arr[r] << endl;
+            } else {
                 cout << arr[r] - arr[l - 1] << endl;
             }
-        }
-        else{
-            if(l == 0){
+        } else {
+            if (l == 0) {
                 cout << arr2[r] << endl;
-            }
-            else{
+            } else {
                 cout << arr2[r] - arr2[l - 1] << endl;
             }
         }
     }
-
 
     return 0;
 }
