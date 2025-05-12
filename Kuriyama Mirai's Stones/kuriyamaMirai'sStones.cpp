@@ -29,6 +29,9 @@ int main(){
             if(l == 0){
                 cout << arr[r] <<  endl;
             }
+            else{
+                cout << arr[r] - arr[l - 1] << endl;
+            }
         }
     }
 
