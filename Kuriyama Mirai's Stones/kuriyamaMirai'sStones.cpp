@@ -33,6 +33,9 @@ int main(){
                 cout << arr[r] - arr[l - 1] << endl;
             }
         }
+        else{
+            if(l == 0)
+        }
     }
 
 
