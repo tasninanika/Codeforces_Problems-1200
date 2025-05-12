@@ -27,7 +27,7 @@ int main(){
         r -= 1;
         if(t == 1){
             if(l == 0){
-
+                cout << arr[r] <<  endl;
             }
         }
     }
