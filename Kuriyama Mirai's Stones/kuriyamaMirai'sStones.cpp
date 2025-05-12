@@ -13,6 +13,9 @@ int main(){
     }
 
     sort(arr2, arr2 + n);
+    for(int i = 1; i < n; i++){
+
+    }
 
 
     return 0;
