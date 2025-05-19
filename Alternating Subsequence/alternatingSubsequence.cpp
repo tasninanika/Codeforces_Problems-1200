@@ -21,6 +21,7 @@ int main(){
             }
             else{
                 sum += curr_max;
+                curr_max = a[i];
             }
         }
     }
