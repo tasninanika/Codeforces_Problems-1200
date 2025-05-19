@@ -24,6 +24,8 @@ int main(){
                 curr_max = a[i];
             }
         }
+
+        sum += curr_max;
     }
 
 
