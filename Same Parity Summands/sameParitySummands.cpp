@@ -17,7 +17,7 @@ int main(){
         if((n - k + 1) % 2 == 1 && n - k + 1 > 0){
             cout << "YES" << endl;
             for(int i = 0; i < k - 1; i++){
-
+                cout << 1 << " ";
             }
         }
     }
