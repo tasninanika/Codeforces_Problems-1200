@@ -19,7 +19,8 @@ int main(){
             for(int i = 0; i < k - 1; i++){
                 cout << 1 << " ";
             }
-        }
+            cout << n - k + 1 << endl;
+         }
     }
 
     return 0;
