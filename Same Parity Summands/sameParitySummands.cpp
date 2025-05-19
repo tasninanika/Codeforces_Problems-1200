@@ -28,6 +28,9 @@ int main(){
             }
             cout << n - 2 * (k - 1) << endl;
          }
+         else{
+
+         }
     }
 
     return 0;
