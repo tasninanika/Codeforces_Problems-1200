@@ -16,7 +16,9 @@ int main(){
 
         long long sum = 0, curr_max = a[0];
         for(int i = 1; i < n; i++){
+            if((a[i] > 0 && a[i - 1] > 0) || (a[i] < 0 && a[i - 1] < 0)){
 
+            }
         }
     }
 
