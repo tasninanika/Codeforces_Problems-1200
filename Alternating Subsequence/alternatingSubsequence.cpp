@@ -19,6 +19,9 @@ int main(){
             if((a[i] > 0 && a[i - 1] > 0) || (a[i] < 0 && a[i - 1] < 0)){
                 curr_max = max(curr_max, a[i]);
             }
+            else{
+                sum += curr_max;
+            }
         }
     }
 
