@@ -26,6 +26,8 @@ int main(){
         }
 
         sum += curr_max;
+
+        cout << sum << endl;
     }
 
 
