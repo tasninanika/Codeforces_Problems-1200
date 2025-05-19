@@ -29,7 +29,7 @@ int main(){
             cout << n - 2 * (k - 1) << endl;
          }
          else{
-
+            cout << "NO" << endl;
          }
     }
 
