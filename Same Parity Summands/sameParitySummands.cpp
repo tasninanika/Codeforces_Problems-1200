@@ -23,6 +23,9 @@ int main(){
          }
          else if((n - 1 * (k - 1)) % 2 == 0 && (n - 2 * (k - 1)) > 0){
             cout << "YES" << endl;
+            for(int i = 0; i < k - 1; i++){
+
+            }
          }
     }
 
