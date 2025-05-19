@@ -11,6 +11,7 @@ int main(){
 
         if(k > n){
             cout << "NO" << endl;
+            continue;
         }
     }
 
