@@ -13,6 +13,10 @@ int main(){
             cout << "NO" << endl;
             continue;
         }
+
+        if((n - k + 1) % 2 == 1 && n - k + 1 > 0){
+
+        }
     }
 
     return 0;
