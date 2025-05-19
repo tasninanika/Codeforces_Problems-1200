@@ -26,6 +26,7 @@ int main(){
             for(int i = 0; i < k - 1; i++){
                 cout << 2 << " ";
             }
+            cout << n - 2 * (k - 1) << endl;
          }
     }
 
