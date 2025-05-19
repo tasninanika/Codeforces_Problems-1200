@@ -10,7 +10,7 @@ int main(){
         cin >> n >> k;
 
         if(k > n){
-
+            cout << "NO" << endl;
         }
     }
 
