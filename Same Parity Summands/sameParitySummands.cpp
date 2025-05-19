@@ -21,6 +21,9 @@ int main(){
             }
             cout << n - k + 1 << endl;
          }
+         else if((n - 1 * (k - 1)) % 2 == 0 && (n - 2 * (k - 1)) > 0){
+
+         }
     }
 
     return 0;
