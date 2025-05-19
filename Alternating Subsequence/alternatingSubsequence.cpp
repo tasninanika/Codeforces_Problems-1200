@@ -13,6 +13,8 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> a[i];
         }
+
+        long long sum = 0, curr_max = a[0];
     }
 
 
