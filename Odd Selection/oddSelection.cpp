@@ -6,7 +6,7 @@ int main(){
     cin >> t;
 
     while(t--){
-
+        int even = 0, odd = 0;
     }
 
 
