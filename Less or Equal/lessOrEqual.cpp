@@ -13,7 +13,9 @@ int main(){
     sort(a, a + n);
 
     if(k == 0){
+        if(a[0] > 1){
 
+        }
     }
 
 
