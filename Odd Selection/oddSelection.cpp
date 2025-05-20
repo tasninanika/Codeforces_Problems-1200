@@ -19,6 +19,8 @@ int main(){
                 even++;
             }
         }
+
+        int m = min(even, x - 1);
     }
 
 
