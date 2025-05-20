@@ -13,7 +13,7 @@ int main(){
             cin >> a;
 
             if(a % 2 == 1){
-
+                odd++;
             }
         }
     }
