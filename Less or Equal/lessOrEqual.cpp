@@ -29,7 +29,7 @@ int main(){
         }
     }
     else{
-
+        cout << a[n - 1] << endl;
     }
 
 
