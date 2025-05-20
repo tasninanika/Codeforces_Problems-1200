@@ -24,6 +24,9 @@ int main(){
         if(a[k - 1] != a[k]){
             cout << a[k - 1] << endl;
         }
+        else{
+
+        }
     }
 
 
