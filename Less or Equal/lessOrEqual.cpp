@@ -12,6 +12,10 @@ int main(){
 
     sort(a, a + n);
 
+    if(k == 0){
+
+    }
+
 
     return 0;
 }
