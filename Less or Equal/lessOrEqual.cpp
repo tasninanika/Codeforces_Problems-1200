@@ -22,7 +22,7 @@ int main(){
     }
     else if(k <= n - 1){
         if(a[k - 1] != a[k]){
-
+            cout << a[k - 1] << endl;
         }
     }
 
