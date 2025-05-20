@@ -15,6 +15,9 @@ int main(){
             if(a % 2 == 1){
                 odd++;
             }
+            else{
+
+            }
         }
     }
 
