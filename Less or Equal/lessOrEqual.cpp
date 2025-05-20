@@ -10,6 +10,8 @@ int main(){
         cin >> a[i];
     }
 
+    sort(a, a + n);
+
 
     return 0;
 }
