@@ -24,7 +24,7 @@ int main(){
         int d = x - m;
 
         if(d % 2 == 0){
-
+            d++;
         }
     }
 
