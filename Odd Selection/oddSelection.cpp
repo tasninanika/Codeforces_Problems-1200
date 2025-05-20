@@ -21,6 +21,7 @@ int main(){
         }
 
         int m = min(even, x - 1);
+        int d = x - m;
     }
 
 
