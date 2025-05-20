@@ -16,6 +16,9 @@ int main(){
         if(a[0] > 1){
             cout << 1 << endl;
         }
+        else{
+
+        }
     }
 
 
