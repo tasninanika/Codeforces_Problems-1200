@@ -14,7 +14,7 @@ int main(){
 
     if(k == 0){
         if(a[0] > 1){
-
+            cout << 1 << endl;
         }
     }
 
