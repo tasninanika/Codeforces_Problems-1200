@@ -28,7 +28,7 @@ int main(){
         }
 
         if(odd >= d && d <= x){
-
+            cout << "YES" << endl;
         }
     }
 
