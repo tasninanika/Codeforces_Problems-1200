@@ -7,6 +7,7 @@ int main(){
         dx = abs(x1 - x2);
         dy = abs(y1 - y2);
         if(dx == dy){
+            cout << x1 << " " << y2 << " " << x2 << " " << y1 << endl;
 
         }
 
