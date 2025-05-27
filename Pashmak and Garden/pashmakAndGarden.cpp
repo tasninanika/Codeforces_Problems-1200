@@ -11,6 +11,7 @@ int main(){
         }
         else if(x1 == x2){
             x3 = x4 = x1 + abs(y1 - y2);
+            y3 = y1;
         }
 
     }
