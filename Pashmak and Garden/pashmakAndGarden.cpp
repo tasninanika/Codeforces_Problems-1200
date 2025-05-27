@@ -15,6 +15,9 @@ int main(){
             y4 = y2;
             cout << x3 << " " << y3 << " " << x4 << " " << y4 << endl;
         }
+        else if( y1 == y2){
+
+        }
 
     }
 
