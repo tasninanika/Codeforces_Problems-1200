@@ -13,6 +13,7 @@ int main(){
             x3 = x4 = x1 + abs(y1 - y2);
             y3 = y1;
             y4 = y2;
+            cout << x3 << " " << y3 << " " << x4 << " " << y4 << endl;
         }
 
     }
