@@ -21,6 +21,9 @@ int main(){
             x4 = x2;
             cout << x3 << " " << y3 << " " << x4 << " " << y4 << endl;
          }
+         else{
+            cout << -1 << endl;
+         }
 
     }
 
