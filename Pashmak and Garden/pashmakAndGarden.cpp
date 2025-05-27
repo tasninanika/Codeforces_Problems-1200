@@ -8,6 +8,8 @@ int main(){
         dy = abs(y1 - y2);
         if(dx == dy){
             cout << x1 << " " << y2 << " " << x2 << " " << y1 << endl;
+        }
+        else if(x1 == x2){
 
         }
 
