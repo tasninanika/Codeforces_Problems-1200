@@ -16,7 +16,7 @@ int main(){
             cout << x3 << " " << y3 << " " << x4 << " " << y4 << endl;
         }
         else if( y1 == y2){
-
+            y3 = y4 = y1 + abs(x1 - x2);
         }
 
     }
