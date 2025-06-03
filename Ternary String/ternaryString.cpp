@@ -5,32 +5,27 @@ int main(){
     string num;
     cin >> num;
 
-    int onesCount = 0;
-    string remaining = "";
+    int len = num.size(), c = 0;
 
-    for(int i = 0; i < num.size(); i++){
-        if(num[i] == '1'){
-            onesCount++;
+    string temp = "";
+    for(int i=0; i < len; i++)
+    {
+        if(num[i]=='1'){
+            c++;
         }
         else{
-            remaining.push_back(num[i]);
+            temp.push_back(num[i]);
         }
     }
-
-    int i = 0;
-    while(i < remaining.length() && remaining[i] == '0'){
-        cout << remaining[i];
-        i++;
+    int check;
+    for(check = -1; check + 1 < temp.size() && temp[check + 1] == '0'; check++){
+        cout << temp[check + 1];
     }
 
-    while(onesCount--){
-        cout << '1';
+    while(c--){
+        cout << 1;
     }
 
-    while(i < remaining.size()){
-        cout << remaining[i];
-        i++;
+    for(; check + 1 < temp.size(); check++){
+        cout << temp[check + 1];
     }
-
-    return 0;
-}
