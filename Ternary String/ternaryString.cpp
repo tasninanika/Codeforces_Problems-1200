@@ -13,7 +13,7 @@ int main(){
             onesCount++;
         }
         else{
-
+            remaining.push_back(num[i]);
         }
     }
 
