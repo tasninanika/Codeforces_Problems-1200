@@ -6,6 +6,7 @@ int main(){
     cin >> num;
 
     int onesCount = 0;
+    string remaining = "";
 
     return 0;
 }
