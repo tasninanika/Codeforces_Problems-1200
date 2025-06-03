@@ -8,5 +8,9 @@ int main(){
     int onesCount = 0;
     string remaining = "";
 
+    for(int i = 0; i < num.length(); i++){
+
+    }
+
     return 0;
 }
