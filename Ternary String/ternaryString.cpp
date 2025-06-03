@@ -12,6 +12,9 @@ int main(){
         if(num[i] == '1'){
             onesCount++;
         }
+        else{
+
+        }
     }
 
     return 0;
