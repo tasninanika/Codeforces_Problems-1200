@@ -18,6 +18,9 @@ int main(){
     }
 
     int i = 0;
+    while(i < remaining.length() && remaining[i] == '0'){
+
+    }
 
     return 0;
 }
