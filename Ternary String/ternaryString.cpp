@@ -24,7 +24,7 @@ int main(){
     }
 
     while(onesCount--){
-
+        cout << '1';
     }
 
     return 0;
