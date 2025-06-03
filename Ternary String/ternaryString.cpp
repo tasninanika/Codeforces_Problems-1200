@@ -9,7 +9,9 @@ int main(){
     string remaining = "";
 
     for(int i = 0; i < num.size(); i++){
+        if(num[i] == '1'){
 
+        }
     }
 
     return 0;
