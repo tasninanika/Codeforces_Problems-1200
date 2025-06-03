@@ -8,7 +8,7 @@ int main(){
     int len = num.size(), c = 0;
 
     string temp = "";
-    for(int i=0; i < len; i++)
+    for(int i = 0; i < len; i++)
     {
         if(num[i]=='1'){
             c++;
