@@ -1,35 +1,34 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    string num;
-    cin >> num;
+int main() {
+    int t;
+    cin >> t;
 
-    int len = num.size(), c = 0;
+    while(t--){
+        string s;
+        cin >> s;
 
-    string temp = "";
-    for(int i = 0; i < len; i++)
-    {
-        if(num[i]=='1'){
-            c++;
+        int n = s.length();
+        int c[4] = {0};
+
+        int left = 0, minLen = n + 1;
+        for(int right = 0; right < n; right++){
+            c[s[right] - '0']++;
+
+            while(c[1] && c[2] && c[3]){
+                minLen = min(minLen, right - left + 1);
+                c[s[left] - '0']--;
+                left++;
+            }
+        }
+
+        if(minLen == n + 1){
+            cout << 0 << endl;
         }
         else{
-            temp.push_back(num[i]);
+            cout << minLen << endl;
         }
     }
-    int check;
-    for(check = -1; check + 1 < temp.size() && temp[check + 1] == '0'; check++){
-        cout << temp[check + 1];
-    }
-
-    while(c--){
-        cout << 1;
-    }
-
-    for(; check + 1 < temp.size(); check++){
-        cout << temp[check + 1];
-    }
-
     return 0;
-
 }
