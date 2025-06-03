@@ -10,7 +10,7 @@ int main(){
 
     for(int i = 0; i < num.size(); i++){
         if(num[i] == '1'){
-
+            onesCount++;
         }
     }
 
