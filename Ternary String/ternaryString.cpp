@@ -29,3 +29,5 @@ int main(){
     for(; check + 1 < temp.size(); check++){
         cout << temp[check + 1];
     }
+
+    return 0;
