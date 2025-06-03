@@ -23,5 +23,9 @@ int main(){
         i++;
     }
 
+    while(onesCount--){
+
+    }
+
     return 0;
 }
