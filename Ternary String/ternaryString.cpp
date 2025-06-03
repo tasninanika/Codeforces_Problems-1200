@@ -27,5 +27,9 @@ int main(){
         cout << '1';
     }
 
+    while(i < remaining.size()){
+
+    }
+
     return 0;
 }
