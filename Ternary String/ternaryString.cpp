@@ -28,7 +28,7 @@ int main(){
     }
 
     while(i < remaining.size()){
-
+        cout << remaining[i];
     }
 
     return 0;
