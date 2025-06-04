@@ -16,7 +16,7 @@ int main(){
         int sum = 0;
 
         for(int j = 0; j < n; j++){
-
+            sum += a[j];
         }
     }
 
