@@ -10,5 +10,7 @@ int main(){
         cin >> a[i];
     }
 
+    int totalCombinations = 1 << n;
+
     return 0;
 }
