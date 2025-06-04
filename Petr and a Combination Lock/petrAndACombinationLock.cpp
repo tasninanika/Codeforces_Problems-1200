@@ -19,6 +19,9 @@ int main(){
             if(i & (1 << j)){
                 sum += a[j];
             }
+            else{
+
+            }
         }
     }
 
