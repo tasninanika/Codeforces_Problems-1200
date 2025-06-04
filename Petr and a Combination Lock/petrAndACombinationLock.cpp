@@ -26,6 +26,7 @@ int main(){
 
         if(sum % 360 == 0){
             cout << "YES" << endl;
+            return 0;
         }
     }
 
