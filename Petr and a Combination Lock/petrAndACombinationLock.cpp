@@ -14,6 +14,10 @@ int main(){
 
     for(int i = 0; i < totalCombinations; i++){
         int sum = 0;
+
+        for(int j = 0; j < n; j++){
+
+        }
     }
 
     return 0;
