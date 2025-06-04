@@ -20,7 +20,7 @@ int main(){
                 sum += a[j];
             }
             else{
-
+                sum -= a[j];
             }
         }
     }
