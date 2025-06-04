@@ -23,6 +23,10 @@ int main(){
                 sum -= a[j];
             }
         }
+
+        if(sum % 360 == 0){
+
+        }
     }
 
     return 0;
