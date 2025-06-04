@@ -12,5 +12,9 @@ int main(){
 
     int totalCombinations = 1 << n;
 
+    for(int i = 0; i < totalCombinations; i++){
+
+    }
+
     return 0;
 }
