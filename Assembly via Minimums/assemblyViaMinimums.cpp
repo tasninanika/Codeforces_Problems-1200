@@ -1,41 +1,30 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     int t;
     cin >> t;
 
-    while (t--) {
+    while(t--) {
         int n;
         cin >> n;
 
-        int total = n * (n - 1) / 2;
-        vector<int> scores(total);
-
-        for (int i = 0; i < total; i++) {
-            cin >> scores[i];
+        map<int, int, greater<int>> mp;
+        for (int i = 0; i < n * (n - 1) / 2; i++) {
+            int x;
+            cin >> x;
+            mp[x]++;
         }
-
-        sort(scores.rbegin(), scores.rend());
-
-        vector<int> result;
-        int index = 0;
-        int count = n - 1;
-
-        for (int i = 0; i < n - 1; i++) {
-            result.push_back(scores[index]);
-            index = index + count;
-            count = count - 1;
-        }
-
-        result.push_back(scores.back());
-
-        for (int i = 0; i < n; i++) {
-            cout << result[i] << " ";
+        int x = 0;
+        for (auto& i: mp) {
+            while(i.second > 0) {
+                cout << i.first << ' ';
+                i.second -= x;
+                x++;
+            }
         }
         cout << endl;
     }
-
     return 0;
 }
-
