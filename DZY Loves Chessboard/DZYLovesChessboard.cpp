@@ -14,7 +14,7 @@ int main(){
                     cout << 'B';
                 }
                 else{
-
+                    cout << 'W';
                 }
             }
         }
