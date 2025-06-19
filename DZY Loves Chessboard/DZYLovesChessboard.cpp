@@ -10,7 +10,9 @@ int main(){
         for(int j = 0; j < m; j++){
             cin >> cell;
             if(cell == '.'){
+                if((i + j) % 2 == 0){
 
+                }
             }
         }
     }
