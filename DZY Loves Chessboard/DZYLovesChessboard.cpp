@@ -17,6 +17,9 @@ int main(){
                     cout << 'W';
                 }
             }
+            else{
+
+            }
         }
     }
 
