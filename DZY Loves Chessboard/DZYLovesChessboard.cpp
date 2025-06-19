@@ -11,7 +11,7 @@ int main(){
             cin >> cell;
             if(cell == '.'){
                 if((i + j) % 2 == 0){
-
+                    cout << 'B';
                 }
             }
         }
