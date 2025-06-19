@@ -21,6 +21,7 @@ int main(){
                 cout << cell;
             }
         }
+        cout << endl;
     }
 
     return 0;
