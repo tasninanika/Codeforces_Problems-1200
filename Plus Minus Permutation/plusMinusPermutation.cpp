@@ -21,6 +21,7 @@ int main(){
         ll sumY = onlyY * (onlyY + 1) / 2;
 
         ll answer = totalSum - sumX - sumY;
+
         cout << answer << endl;
     }
 
