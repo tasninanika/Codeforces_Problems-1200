@@ -20,7 +20,8 @@ int main(){
 
         for(int i = 0; i < n; i++){
             if(i == 0){
-
+                preSum[i] = arr[i];
+                preGreater[i] = arr[i];
             }
         }
     }
