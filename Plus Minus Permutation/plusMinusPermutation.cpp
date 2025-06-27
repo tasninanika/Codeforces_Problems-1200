@@ -15,6 +15,10 @@ int main(){
         ll common = n / l;
         ll onlyX = n - (n / x) + common;
         ll onlyY = (n / y) - common;
+
+        ll totalSum = n * (n + 1) / 2;
+        ll sumX = onlyX * (onlyX + 1) / 2;
+        ll sumY = onlyY * (onlyY + 1) / 2;
     }
 
     return 0;
