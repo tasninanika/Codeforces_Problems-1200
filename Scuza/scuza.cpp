@@ -51,7 +51,7 @@ int main(){
                 cout << 0 << " ";
             }
             else{
-
+                cout << preSum[pos] << " ";
             }
 
         }
