@@ -32,6 +32,9 @@ int main(){
         while(q--){
             ll k;
             cin >> k;
+
+            ll low = 0, high = n - 1, pos = -1;
+
         }
     }
 
