@@ -24,7 +24,8 @@ int main(){
                 preGreater[i] = arr[i];
             }
             else{
-
+                preSum[i] = preSum[i - 1] + arr[i];
+                preGreater[i] = max(preGreater[i - 1], arr[i]);
             }
         }
     }
