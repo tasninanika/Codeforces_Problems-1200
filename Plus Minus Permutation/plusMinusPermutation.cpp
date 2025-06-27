@@ -19,6 +19,9 @@ int main(){
         ll totalSum = n * (n + 1) / 2;
         ll sumX = onlyX * (onlyX + 1) / 2;
         ll sumY = onlyY * (onlyY + 1) / 2;
+
+        ll answer = totalSum - sumX - sumY;
+        cout << answer << endl;
     }
 
     return 0;
