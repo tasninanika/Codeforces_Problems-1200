@@ -30,7 +30,8 @@ int main(){
         }
 
         while(q--){
-
+            ll k;
+            cin >> k;
         }
     }
 
