@@ -8,6 +8,7 @@ int main(){
 
     while(t--){
         ll n, q;
+        cin >> n >> q;
     }
 
     return 0;
