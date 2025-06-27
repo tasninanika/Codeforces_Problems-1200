@@ -11,6 +11,9 @@ int main(){
         cin >> n >> q;
 
         ll arr[n];
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
