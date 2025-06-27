@@ -42,6 +42,9 @@ int main(){
                     pos = mid;
                     low = mid + 1;
                 }
+                else{
+
+                }
             }
 
         }
