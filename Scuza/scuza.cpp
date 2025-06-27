@@ -53,8 +53,8 @@ int main(){
             else{
                 cout << preSum[pos] << " ";
             }
-
         }
+        cout << endl;
     }
 
     return 0;
