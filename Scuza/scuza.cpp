@@ -12,7 +12,7 @@ int main(){
 
         ll arr[n];
         for(int i = 0; i < n; i++){
-
+            cin >> arr[n];
         }
     }
 
