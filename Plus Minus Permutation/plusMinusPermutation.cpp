@@ -1,7 +1,10 @@
 #include<bits/stdc++.h>
-#include<numeric>
 using namespace std;
 #define ll long long
+
+ll lcm(ll a, ll b) {
+    return (a / __gcd(a, b)) * b;
+}
 
 int main(){
     ll t;
@@ -11,7 +14,7 @@ int main(){
         ll n, x, y;
         cin >> n >> x >> y;
 
-        ll l = std::lcm(x, y);
+        ll l = lcm(x, y);
 
         ll common = n / l;
         ll onlyX = n - (n / x) + common;
