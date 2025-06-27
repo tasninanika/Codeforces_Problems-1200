@@ -11,7 +11,7 @@ int main(){
         ll n, x, y;
         cin >> n >> x >> y;
 
-        ll l = lcm(x, y);
+        ll l = std::lcm(x, y);
 
         ll common = n / l;
         ll onlyX = n - (n / x) + common;
