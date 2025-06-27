@@ -28,6 +28,10 @@ int main(){
                 preGreater[i] = max(preGreater[i - 1], arr[i]);
             }
         }
+
+        while(q--){
+
+        }
     }
 
     return 0;
