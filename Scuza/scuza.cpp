@@ -23,6 +23,9 @@ int main(){
                 preSum[i] = arr[i];
                 preGreater[i] = arr[i];
             }
+            else{
+
+            }
         }
     }
 
