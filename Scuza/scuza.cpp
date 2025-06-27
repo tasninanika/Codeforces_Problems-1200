@@ -14,6 +14,9 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> arr[i];
         }
+
+        ll preSum[n];
+        ll preGreater[n];
     }
 
     return 0;
