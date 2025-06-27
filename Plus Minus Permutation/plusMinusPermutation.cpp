@@ -9,6 +9,8 @@ int main(){
     while(t--){
         ll n, x, y;
         cin >> n >> x >> y;
+
+        ll l = lcm(x, y);
     }
 
     return 0;
