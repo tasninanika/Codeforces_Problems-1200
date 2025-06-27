@@ -39,7 +39,8 @@ int main(){
                 ll mid = low + (high - low) / 2;
 
                 if(preGreater[mid] <= k){
-
+                    pos = mid;
+                    low = mid + 1;
                 }
             }
 
