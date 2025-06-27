@@ -27,7 +27,7 @@ int main(){
 
         for(int i = 0; i <= 32; i++){
             if(freq[i] >= 2){
-                ans += (1LL * freq[i] * (freq[i] - 1)) / 2;
+                ans += (freq[i] * (freq[i] - 1)) / 2;
             }
         }
 
