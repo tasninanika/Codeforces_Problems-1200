@@ -50,6 +50,9 @@ int main(){
             if(pos == -1){
                 cout << 0 << " ";
             }
+            else{
+
+            }
 
         }
     }
