@@ -37,6 +37,10 @@ int main(){
 
             while(low <= high){
                 ll mid = low + (high - low) / 2;
+
+                if(preGreater[mid] <= k){
+
+                }
             }
 
         }
