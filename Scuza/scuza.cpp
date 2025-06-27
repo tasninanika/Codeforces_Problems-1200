@@ -17,6 +17,10 @@ int main(){
 
         ll preSum[n];
         ll preGreater[n];
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
