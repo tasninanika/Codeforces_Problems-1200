@@ -35,6 +35,10 @@ int main(){
 
             ll low = 0, high = n - 1, pos = -1;
 
+            while(low <= high){
+
+            }
+
         }
     }
 
