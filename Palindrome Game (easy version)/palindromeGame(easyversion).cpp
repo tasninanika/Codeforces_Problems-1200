@@ -13,6 +13,9 @@ int main(){
         cin >> str;
 
         int zero = 0;
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
     return 0;
