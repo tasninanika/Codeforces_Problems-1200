@@ -10,6 +10,7 @@ int main(){
         cin >> n;
 
         string str;
+        cin >> str;
     }
 
     return 0;
