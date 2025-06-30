@@ -22,6 +22,9 @@ int main(){
         if(zero == 2 && n % 2 == 1 && str[n / 2] == '0'){
             cout << "DRAW" << endl;
         }
+        else if(zero == 1 || zero % 2 == 0){
+
+        }
     }
 
     return 0;
