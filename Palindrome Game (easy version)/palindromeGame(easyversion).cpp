@@ -25,6 +25,9 @@ int main(){
         else if(zero == 1 || zero % 2 == 0){
             cout << "BOB" << endl;
         }
+        else{
+
+        }
     }
 
     return 0;
