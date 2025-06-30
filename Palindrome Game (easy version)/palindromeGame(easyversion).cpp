@@ -11,6 +11,8 @@ int main(){
 
         string str;
         cin >> str;
+
+        int zero = 0;
     }
 
     return 0;
