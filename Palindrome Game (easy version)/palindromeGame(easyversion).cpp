@@ -26,7 +26,7 @@ int main(){
             cout << "BOB" << endl;
         }
         else{
-
+            cout << "ALICE" << endl;
         }
     }
 
