@@ -18,6 +18,10 @@ int main(){
                 zero++;
             }
         }
+
+        if(zero == 2 && n % 2 == 1 && str[n / 2] == '0'){
+
+        }
     }
 
     return 0;
