@@ -42,6 +42,10 @@ int main(){
             }
             else{
                 output.push_back(arr[0]);
+
+                for(int i = 2; i < n; i++){
+
+                }
             }
         }
     }
