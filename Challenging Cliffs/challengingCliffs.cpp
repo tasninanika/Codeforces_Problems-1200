@@ -61,7 +61,7 @@ int main(){
         }
 
         for(int i = 0; i < output.size(); i++){
-            cout << output[i] << endl;
+            cout << output[i] << " ";
         }
 
         cout << endl;
