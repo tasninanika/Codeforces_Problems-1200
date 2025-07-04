@@ -36,7 +36,7 @@ int main(){
 
                 for(int i = 0; i < n; i++){
                     if(i != n - 2){
-
+                        output.push_back(arr[i]);
                     }
                 }
             }
