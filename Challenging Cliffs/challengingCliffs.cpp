@@ -29,6 +29,10 @@ int main(){
         }
 
         vector<int> output;
+
+        if(min_index == -1){
+
+        }
     }
 
     return 0;
