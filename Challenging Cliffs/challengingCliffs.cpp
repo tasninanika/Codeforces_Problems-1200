@@ -23,7 +23,7 @@ int main(){
             int diff = arr[i + 1] - arr[i];
 
             if(diff < min_diff){
-
+                min_diff = diff;
             }
         }
     }
