@@ -51,6 +51,9 @@ int main(){
         }
         else{
             output.push_back(arr[min_index]);
+            for(int i = min_index + 2; i < n; i++){
+
+            }
         }
     }
 
