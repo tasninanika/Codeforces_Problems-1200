@@ -20,7 +20,7 @@ int main(){
         int min_index = -1;
 
         for(int i = 1; i < n - 1; i++){
-
+            int diff = arr[i + 1] - arr[i];
         }
     }
 
