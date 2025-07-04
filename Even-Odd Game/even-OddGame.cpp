@@ -14,7 +14,7 @@ int main(){
             cin >> arr[i];
         }
 
-        sort(arr, arr + n);
+        sort(arr.begin(), arr.end());
 
         long long sum = 0;
 
