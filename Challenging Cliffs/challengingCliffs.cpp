@@ -27,6 +27,8 @@ int main(){
                 min_index = i;
             }
         }
+
+        vector<int> output;
     }
 
     return 0;
