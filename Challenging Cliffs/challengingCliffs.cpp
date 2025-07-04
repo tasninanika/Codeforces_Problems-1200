@@ -24,6 +24,7 @@ int main(){
 
             if(diff < min_diff){
                 min_diff = diff;
+                min_index = i;
             }
         }
     }
