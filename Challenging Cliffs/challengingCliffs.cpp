@@ -18,6 +18,10 @@ int main(){
 
         int min_diff = arr[1] - arr[0];
         int min_index = -1;
+
+        for(int i = 1; i < n - 1; i++){
+
+        }
     }
 
     return 0;
