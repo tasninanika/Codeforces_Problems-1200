@@ -46,6 +46,7 @@ int main(){
                 for(int i = 2; i < n; i++){
                     output.push_back(arr[i]);
                 }
+                output.push_back(arr[1]);
             }
         }
     }
