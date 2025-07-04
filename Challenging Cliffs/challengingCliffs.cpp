@@ -59,6 +59,10 @@ int main(){
             }
             output.push_back(arr[min_index + 1]);
         }
+
+        for(int i = 0; i < output.size(); i++){
+
+        }
     }
 
     return 0;
