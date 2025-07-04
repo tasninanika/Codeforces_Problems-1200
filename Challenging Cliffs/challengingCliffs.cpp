@@ -41,7 +41,7 @@ int main(){
                 }
             }
             else{
-
+                output.push_back(arr[0]);
             }
         }
     }
