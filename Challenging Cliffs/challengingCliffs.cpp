@@ -57,6 +57,7 @@ int main(){
             for(int i = 0; i < min_index; i++){
                 output.push_back(arr[i]);
             }
+            output.push_back(arr[min_index + 1]);
         }
     }
 
