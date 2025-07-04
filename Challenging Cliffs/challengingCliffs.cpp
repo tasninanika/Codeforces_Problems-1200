@@ -50,7 +50,7 @@ int main(){
             }
         }
         else{
-
+            output.push_back(arr[min_index]);
         }
     }
 
