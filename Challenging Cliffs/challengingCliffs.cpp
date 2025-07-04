@@ -15,6 +15,8 @@ int main(){
         }
 
         sort(arr.begin(), arr.end());
+
+        int min_diff = arr[1] - arr[0];
     }
 
     return 0;
