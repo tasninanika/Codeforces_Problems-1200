@@ -8,6 +8,8 @@ int main(){
     while(t--){
         int n;
         cin >> n;
+
+        vector<int> arr(n);
     }
 
     return 0;
