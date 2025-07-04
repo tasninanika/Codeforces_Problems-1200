@@ -55,7 +55,7 @@ int main(){
                 output.push_back(arr[i]);
             }
             for(int i = 0; i < min_index; i++){
-
+                output.push_back(arr[i]);
             }
         }
     }
