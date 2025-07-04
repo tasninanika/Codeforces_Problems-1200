@@ -32,7 +32,7 @@ int main(){
 
         if(min_index == -1){
             if((arr[n - 1] - arr[n - 2]) <= (arr[1] - arr[0])){
-
+                output.push_back(arr[n - 2]);
             }
         }
     }
