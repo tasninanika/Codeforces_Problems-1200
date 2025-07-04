@@ -49,6 +49,9 @@ int main(){
                 output.push_back(arr[1]);
             }
         }
+        else{
+
+        }
     }
 
     return 0;
