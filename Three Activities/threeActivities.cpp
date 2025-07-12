@@ -32,6 +32,10 @@ int main(){
         sort(row3.rbegin(), row3.rend());
 
         ll maxSum = 0;
+
+        for(int i = 0; i < min(3, n); i++){
+
+        }
     }
 
 
