@@ -42,6 +42,7 @@ int main(){
 
                     if(idx1 != idx2 && idx2 != idx3 && idx1 != idx3){
                         ll sum = row1[i].first + row2[j].first + row3[k].first;
+                        maxSum = max(maxSum, sum);
                     }
                 }
             }
