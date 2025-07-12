@@ -16,6 +16,10 @@ int main(){
             cin >> row1[i].first;
             row1[i].second = i;
         }
+
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
