@@ -26,6 +26,8 @@ int main(){
             cin >> row3[i].first;
             row3[i].second = i;
         }
+
+        sort(row1.rbegin(), row1.rend());
     }
 
 
