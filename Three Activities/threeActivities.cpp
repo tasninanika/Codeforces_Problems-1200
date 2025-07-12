@@ -38,6 +38,7 @@ int main(){
                 for(int k = 0; k < min(3, n); k++){
                     int idx1 = row1[i].second;
                     int idx2 = row2[j].second;
+                    int idx3 = row3[k].second;
                 }
             }
         }
