@@ -39,6 +39,10 @@ int main(){
                     int idx1 = row1[i].second;
                     int idx2 = row2[j].second;
                     int idx3 = row3[k].second;
+
+                    if(idx1 != idx2 && idx2 != idx3 && idx1 != idx3){
+
+                    }
                 }
             }
         }
