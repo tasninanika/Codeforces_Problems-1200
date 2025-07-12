@@ -13,7 +13,7 @@ int main(){
         vector<pair<<ll, int>> row1(n), row2(n), row3(n);
 
         for(int i = 0; i < n; i++){
-
+            cin >> row1[i].first;
         }
     }
 
