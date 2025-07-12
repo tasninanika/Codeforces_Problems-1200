@@ -30,6 +30,8 @@ int main(){
         sort(row1.rbegin(), row1.rend());
         sort(row2.rbegin(), row2.rend());
         sort(row3.rbegin(), row3.rend());
+
+        ll maxSum = 0;
     }
 
 
