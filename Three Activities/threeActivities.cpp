@@ -24,6 +24,7 @@ int main(){
 
         for(int i = 0; i < n; i++){
             cin >> row3[i].first;
+            row3[i].second = i;
         }
     }
 
