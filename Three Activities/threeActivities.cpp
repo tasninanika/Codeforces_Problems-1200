@@ -34,7 +34,9 @@ int main(){
         ll maxSum = 0;
 
         for(int i = 0; i < min(3, n); i++){
+            for(int j = 0; j < min(3, n); j++){
 
+            }
         }
     }
 
