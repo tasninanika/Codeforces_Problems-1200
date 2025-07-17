@@ -9,6 +9,8 @@ int main(){
         int n, k;
         cin >> n >> k;
 
+        int a, b, c;
+
 
     }
     return 0;
