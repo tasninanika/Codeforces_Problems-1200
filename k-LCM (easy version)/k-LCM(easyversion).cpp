@@ -11,6 +11,10 @@ int main(){
 
         int a, b, c;
 
+        if(n % 2 == 1){
+
+        }
+
 
     }
     return 0;
