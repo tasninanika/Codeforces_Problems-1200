@@ -23,7 +23,7 @@ int main(){
                 c = n - 2 * a;
             }
             else{
-
+                a = n / 2;
             }
         }
 
