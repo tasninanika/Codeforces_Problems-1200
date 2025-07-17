@@ -12,7 +12,7 @@ int main(){
         int a, b, c;
 
         if(n % 2 == 1){
-
+            a = n / 2;
         }
 
 
