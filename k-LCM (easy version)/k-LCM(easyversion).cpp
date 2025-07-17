@@ -15,6 +15,9 @@ int main(){
         else if(n % 2 != 0){
             cout << 1 << " " << n / 2 << " " << n / 2 << endl;
         }
+        else{
+
+        }
     }
 
 
