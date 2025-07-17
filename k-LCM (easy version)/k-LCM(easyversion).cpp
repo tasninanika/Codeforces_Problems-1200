@@ -16,6 +16,9 @@ int main(){
             b = n / 2;
             c = 1;
         }
+        else{
+
+        }
 
 
     }
