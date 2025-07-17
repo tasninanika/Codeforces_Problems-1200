@@ -24,6 +24,7 @@ int main(){
             }
             else{
                 a = n / 2;
+                b = n / 4;
             }
         }
 
