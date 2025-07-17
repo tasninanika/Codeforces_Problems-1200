@@ -22,6 +22,9 @@ int main(){
                 b = a;
                 c = n - 2 * a;
             }
+            else{
+
+            }
         }
 
 
