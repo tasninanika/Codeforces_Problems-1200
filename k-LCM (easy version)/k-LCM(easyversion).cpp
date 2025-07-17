@@ -31,5 +31,6 @@ int main(){
     cout << a << " " << b << " " << c << endl;
 
     }
+
     return 0;
 }
