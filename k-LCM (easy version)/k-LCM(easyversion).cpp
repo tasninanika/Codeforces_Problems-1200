@@ -19,8 +19,5 @@ int main(){
             cout << n / 2 - 1 << " " << n / 2 - 1 << " " << 2 << endl;
         }
     }
-
-
-
     return 0;
 }
