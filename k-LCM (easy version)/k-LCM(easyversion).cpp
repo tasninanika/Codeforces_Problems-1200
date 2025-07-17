@@ -16,7 +16,7 @@ int main(){
             cout << 1 << " " << n / 2 << " " << n / 2 << endl;
         }
         else{
-
+            cout << n / 2 - 1 << " " << n / 2 - 1 << " " << 2 << endl;
         }
     }
 
