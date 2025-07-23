@@ -21,6 +21,7 @@ int main(){
 
         while(r > l){
             v.push_back(a[r--]);
+            v.push_back(a[l++]);
         }
     }
 
