@@ -23,6 +23,10 @@ int main(){
             v.push_back(a[r--]);
             v.push_back(a[l++]);
         }
+
+        if(n % 2 != 0){
+
+        }
     }
 
     return 0;
