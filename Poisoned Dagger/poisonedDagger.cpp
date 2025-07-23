@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main() {
     int t;
     cin >> t;
 
@@ -10,38 +10,31 @@ int main(){
         long long h;
         cin >> n >> h;
 
-        vector<long long> a(n);
-        for(int i = 0; i < n; i++){
-            cin >> a[i];
+        vector<long long> v(n);
+        for(int i = 0; i < n; i++)
+            cin >> v[i];
+
+        vector<long long> diff(n - 1);
+        for(int i = 0; i < n - 1; i++) {
+            diff[i] = v[i + 1] - v[i];
         }
 
-        long long left = 1, right = h, ans = h;
+        long long left = 1, right = 1e18, ans = right;
         while(left <= right){
             long long mid = (left + right) / 2;
-            long long sum = 0;
+            long long sum = mid;
+            for (auto x : diff) sum += min(mid, x);
 
-            for(int i = 0; i < n; i++){
-                long long next;
-
-                if(i + 1 < n){
-                    next = a[i + 1];
-                }
-                else{
-                    next = a[i];
-                }
-                sum += min(mid, next - a[i]);
-            }
             if(sum >= h){
                 ans = mid;
                 right = mid - 1;
             }
-            else {
+            else{
                 left = mid + 1;
             }
         }
         cout << ans << endl;
     }
-
 
     return 0;
 }
