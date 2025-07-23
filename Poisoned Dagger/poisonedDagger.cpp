@@ -24,7 +24,7 @@ int main(){
                 long long next;
 
                 if(i + 1 < n){
-
+                    next = a[i + 1];
                 }
             }
         }
