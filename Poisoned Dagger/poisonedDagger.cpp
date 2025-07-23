@@ -26,6 +26,9 @@ int main(){
                 if(i + 1 < n){
                     next = a[i + 1];
                 }
+                else{
+
+                }
             }
         }
     }
