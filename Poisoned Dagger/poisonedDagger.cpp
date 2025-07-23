@@ -18,6 +18,7 @@ int main(){
         long long left = 1, right = h, ans = h;
         while(left <= right){
             long long mid = (left + right) / 2;
+            long long sum = 0;
         }
     }
 
