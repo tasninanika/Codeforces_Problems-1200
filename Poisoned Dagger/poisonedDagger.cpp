@@ -14,6 +14,8 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> a[i];
         }
+
+        long long left = 1, right = h, ans = h;
     }
 
 
