@@ -15,6 +15,8 @@ int main(){
         }
 
         sort(a.begin(), a.end());
+
+        vector<long long> v;
     }
 
     return 0;
