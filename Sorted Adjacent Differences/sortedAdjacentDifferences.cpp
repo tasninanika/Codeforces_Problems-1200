@@ -25,7 +25,7 @@ int main(){
         }
 
         if(n % 2 != 0){
-
+            v.push_back(a[n / 2]);
         }
     }
 
