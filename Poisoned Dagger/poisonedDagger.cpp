@@ -27,7 +27,7 @@ int main(){
                     next = a[i + 1];
                 }
                 else{
-
+                    next = a[i];
                 }
             }
         }
