@@ -9,6 +9,8 @@ int main(){
         int n;
         long long h;
         cin >> n >> h;
+
+        vector<long long> a(n);
     }
 
 
