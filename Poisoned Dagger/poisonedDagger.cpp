@@ -39,6 +39,7 @@ int main(){
                 left = mid + 1;
             }
         }
+        cout << ans << endl;
     }
 
 
