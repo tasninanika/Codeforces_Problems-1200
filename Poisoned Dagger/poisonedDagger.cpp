@@ -11,6 +11,9 @@ int main(){
         cin >> n >> h;
 
         vector<long long> a(n);
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
