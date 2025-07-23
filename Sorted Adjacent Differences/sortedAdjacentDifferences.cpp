@@ -18,6 +18,10 @@ int main(){
 
         vector<long long> v;
         int l = 0, r = n - 1;
+
+        while(r > l){
+
+        }
     }
 
     return 0;
