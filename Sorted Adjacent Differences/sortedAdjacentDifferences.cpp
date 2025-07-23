@@ -27,6 +27,8 @@ int main(){
         if(n % 2 != 0){
             v.push_back(a[n / 2]);
         }
+
+        reverse(v.begin(), v.end());
     }
 
     return 0;
