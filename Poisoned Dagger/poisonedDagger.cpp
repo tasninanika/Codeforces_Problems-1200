@@ -29,6 +29,7 @@ int main(){
                 else{
                     next = a[i];
                 }
+                sum += min(mid, next - a[i]);
             }
         }
     }
