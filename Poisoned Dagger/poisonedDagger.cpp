@@ -31,6 +31,10 @@ int main(){
                 }
                 sum += min(mid, next - a[i]);
             }
+            if(sum >= h){
+                ans = mid;
+                right = mid - 1;
+            }
         }
     }
 
