@@ -17,6 +17,7 @@ int main(){
         sort(a.begin(), a.end());
 
         vector<long long> v;
+        int l = 0, r = n - 1;
     }
 
     return 0;
