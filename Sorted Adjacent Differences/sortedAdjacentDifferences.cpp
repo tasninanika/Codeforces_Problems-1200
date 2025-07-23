@@ -20,7 +20,7 @@ int main(){
         int l = 0, r = n - 1;
 
         while(r > l){
-
+            v.push_back(a[r--]);
         }
     }
 
