@@ -16,6 +16,9 @@ int main(){
         }
 
         long long left = 1, right = h, ans = h;
+        while(left <= right){
+
+        }
     }
 
 
