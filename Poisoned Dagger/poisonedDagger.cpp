@@ -19,6 +19,10 @@ int main(){
         while(left <= right){
             long long mid = (left + right) / 2;
             long long sum = 0;
+
+            for(int i = 0; i < n; i++){
+
+            }
         }
     }
 
