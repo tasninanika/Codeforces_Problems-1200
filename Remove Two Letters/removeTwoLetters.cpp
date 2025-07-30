@@ -11,6 +11,10 @@ int main(){
         cin >> n >> s;
 
         int ans = 0;
+
+        for(int i = 1; i < n; i++){
+
+        }
     }
 
     return 0;
