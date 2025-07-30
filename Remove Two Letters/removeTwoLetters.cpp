@@ -19,6 +19,7 @@ int main(){
             if(i >= 3 && s[i] == s[i - 2] && s[i - 1] == s[i - 3]){
                 continue;
             }
+            ans++;
         }
     }
 
