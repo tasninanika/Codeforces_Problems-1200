@@ -9,6 +9,8 @@ int main(){
         long long n;
         string s;
         cin >> n >> s;
+
+        int ans = 0;
     }
 
     return 0;
