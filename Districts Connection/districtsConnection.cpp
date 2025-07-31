@@ -23,6 +23,10 @@ int main(){
     }
     else{
         cout << "YES" << endl;
+
+        for(int i = 1; i < n; i++){
+
+        }
     }
 
 
