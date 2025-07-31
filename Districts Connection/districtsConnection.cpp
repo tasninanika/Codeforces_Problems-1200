@@ -21,6 +21,9 @@ int main(){
     if(root == -1){
         cout << "NO" << endl;
     }
+    else{
+
+    }
 
 
     return 0;
