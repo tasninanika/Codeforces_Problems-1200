@@ -31,7 +31,7 @@ int main(){
         }
 
         for(int i = 1; i < n; i++){
-            if(gang[i] == gang[0]){
+            if(gang[i] == gang[0] && i != root){
                 cout << (root + 1) << " " << (i + 1) << endl;
             }
         }
