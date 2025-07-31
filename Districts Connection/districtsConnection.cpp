@@ -19,7 +19,7 @@ int main(){
     }
 
     if(root == -1){
-
+        cout << "NO" << endl;
     }
 
 
