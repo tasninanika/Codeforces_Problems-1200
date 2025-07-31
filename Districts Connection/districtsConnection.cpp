@@ -1,42 +1,46 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
-    int n;
-    cin >> n;
+int main() {
+    int t;
+    cin >> t;
 
-    vector<int> gang(n);
-    for(int i = 0; i < n; i++){
-        cin >> gang[i];
-    }
+    while(t--){
+        int n;
+        cin >> n;
 
-    int root = -1;
-    for(int i = 1; i < n; i++){
-        if(gang[i] != gang[0]){
-            root = i;
-            break;
+        vector<int> gang(n);
+        map<int, vector<int>> group;
+        set<int> unique;
+
+        for(int i = 0; i < n; i++){
+            cin >> gang[i];
+            group[gang[i]].push_back(i);
+            unique.insert(gang[i]);
         }
-    }
 
-    if(root == -1){
-        cout << "NO" << endl;
-    }
-    else{
-        cout << "YES" << endl;
+        if (unique.size() == 1) {
+            cout << "NO\n";
+        }
+        else {
+            cout << "YES\n";
 
-        for(int i = 1; i < n; i++){
-            if(gang[i] != gang[0]){
-                cout << 1 << " " << (i + 1) << endl;
+            vector<vector<int>> allGroups;
+            for (auto x : group) {
+                allGroups.push_back(x.second);
+            }
+
+            for (int i = 1; i < allGroups.size(); i++) {
+                for (int j : allGroups[i]) {
+                    cout << allGroups[0][0] + 1 << " " << j + 1 << endl;
+                }
+            }
+
+            for (int i = 1; i < allGroups[0].size(); i++) {
+                cout << allGroups[0][i] + 1 << " " << allGroups[1][0] + 1 << endl;
             }
         }
-
-        for(int i = 1; i < n; i++){
-            if(gang[i] == gang[0] && i != root){
-                cout << (root + 1) << " " << (i + 1) << endl;
-            }
-        }
     }
-
 
     return 0;
 }
