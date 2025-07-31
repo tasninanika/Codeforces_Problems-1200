@@ -31,7 +31,9 @@ int main(){
         }
 
         for(int i = 1; i < n; i++){
+            if(gang[i] == gang[0]){
 
+            }
         }
     }
 
