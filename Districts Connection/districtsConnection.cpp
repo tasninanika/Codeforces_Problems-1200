@@ -10,6 +10,8 @@ int main(){
         cin >> gang[i];
     }
 
+    int root = -1;
+
 
     return 0;
 }
