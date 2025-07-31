@@ -5,6 +5,8 @@ int main(){
     int n;
     cin >> n;
 
+    vector<int> gang(n);
+
 
     return 0;
 }
