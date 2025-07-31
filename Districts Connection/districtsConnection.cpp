@@ -18,6 +18,10 @@ int main(){
         }
     }
 
+    if(root == -1){
+
+    }
+
 
     return 0;
 }
