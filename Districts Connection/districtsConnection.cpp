@@ -7,7 +7,7 @@ int main(){
 
     vector<int> gang(n);
     for(int i = 0; i < n; i++){
-
+        cin >> gang[i];
     }
 
 
