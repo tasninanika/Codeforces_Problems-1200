@@ -10,7 +10,7 @@ int main(){
     cin >> n;
 
     vector<int> a(n);
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; ++i){
       cin >> a[i];
     }
 
@@ -28,9 +28,9 @@ int main(){
       }
 
       if(l < r){
-        for(int i = l; i <= r; i++){
+        for(int i = l; i <= r; ++i){
             if(s[i] == 'R'){
-                for(int j = i; j <= r; j++){
+                for(int j = i; j <= r; ++j){
                    if(s[j] == 'L'){
                         ans += a[j] - a[l];
                         l = j + 1;
