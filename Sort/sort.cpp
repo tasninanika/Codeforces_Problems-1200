@@ -1,14 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
+int main(){
     int t;
     cin >> t;
 
-    while (t--) {
+    while(t--){
         int n, q;
         cin >> n >> q;
 
@@ -27,7 +24,7 @@ int main() {
             freq_b[i][b[i - 1] - 'a']++;
         }
 
-        while (q--) {
+        while(q--){
             int l, r;
             cin >> l >> r;
 
@@ -38,7 +35,7 @@ int main() {
                 ops += abs(count_a - count_b);
             }
 
-            cout << ops / 2 << '\n';
+            cout << ops / 2 << endl;
         }
     }
 
