@@ -1,32 +1,45 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int n, q;
-    cin >> n >> q;
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-    string a, b;
-    cin >> a >> b;
+    int t;
+    cin >> t;
 
-    while (q--) {
-        int l, r;
-        cin >> l >> r;
-        l--; r--;
+    while (t--) {
+        int n, q;
+        cin >> n >> q;
 
-        vector<int> count_a(26, 0);
-        vector<int> count_b(26, 0);
+        string a, b;
+        cin >> a >> b;
 
-        for (int i = l; i <= r; ++i) {
-            count_a[a[i] - 'a']++;
-            count_b[b[i] - 'a']++;
+        vector<vector<int>> freq_a(n + 1, vector<int>(26, 0));
+        vector<vector<int>> freq_b(n + 1, vector<int>(26, 0));
+
+        for (int i = 1; i <= n; ++i) {
+            for (int c = 0; c < 26; ++c) {
+                freq_a[i][c] = freq_a[i - 1][c];
+                freq_b[i][c] = freq_b[i - 1][c];
+            }
+            freq_a[i][a[i - 1] - 'a']++;
+            freq_b[i][b[i - 1] - 'a']++;
         }
 
-        int operations = 0;
-        for (int i = 0; i < 26; ++i) {
-            operations += abs(count_a[i] - count_b[i]);
-        }
+        while (q--) {
+            int l, r;
+            cin >> l >> r;
 
-        cout << operations / 2 << '\n';
+            int ops = 0;
+            for (int c = 0; c < 26; ++c) {
+                int count_a = freq_a[r][c] - freq_a[l - 1][c];
+                int count_b = freq_b[r][c] - freq_b[l - 1][c];
+                ops += abs(count_a - count_b);
+            }
+
+            cout << ops / 2 << '\n';
+        }
     }
 
     return 0;
