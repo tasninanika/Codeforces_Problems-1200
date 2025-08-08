@@ -2,39 +2,32 @@
 using namespace std;
 
 int main() {
-    int n;
+    int n, q;
+    cin >> n >> q;
 
-    while(cin >> n){
-        vector<string> words;
+    string a, b;
+    cin >> a >> b;
 
-        for (int i = 0; i < n; ++i) {
-            string s;
-            cin >> s;
-            words.push_back(s);
+    while (q--) {
+        int l, r;
+        cin >> l >> r;
+        l--; r--;
+
+        vector<int> count_a(26, 0);
+        vector<int> count_b(26, 0);
+
+        for (int i = l; i <= r; ++i) {
+            count_a[a[i] - 'a']++;
+            count_b[b[i] - 'a']++;
         }
 
-        sort(words.begin(), words.end(), [](const string &a, const string &b) {
-            return a.size() < b.size();
-        });
-
-        bool valid = true;
-        for (int i = 0; i < n - 1; ++i) {
-            if (words[i + 1].find(words[i]) == string::npos) {
-                valid = false;
-                break;
-            }
+        int operations = 0;
+        for (int i = 0; i < 26; ++i) {
+            operations += abs(count_a[i] - count_b[i]);
         }
 
-        if (valid) {
-            cout << "YES" << endl;
-            for (int i = 0; i < n; ++i) {
-                cout << words[i] << endl;
-            }
-        } else {
-            cout << "NO" << endl;
-        }
+        cout << operations / 2 << '\n';
     }
 
     return 0;
 }
-
