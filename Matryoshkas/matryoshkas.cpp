@@ -14,6 +14,7 @@ int main(){
     v.push_back(1e9 + 3);
 
     long long prev = v[0];
+    long long cur = 1, cnt = 0, run = 0;
 
 
     return 0;
