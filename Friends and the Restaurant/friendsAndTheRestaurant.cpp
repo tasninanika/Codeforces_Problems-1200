@@ -23,6 +23,8 @@ int main(){
         }
 
         sort(diff.begin(), diff.end());
+
+        int l = 0, r = n - 1, ans = 0;
     }
 
 
