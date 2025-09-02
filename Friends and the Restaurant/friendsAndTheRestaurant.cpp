@@ -21,6 +21,8 @@ int main(){
         for(int i = 0; i < n; i++){
             diff[i] = x[i] - y[i];
         }
+
+        sort(diff.begin(), diff.end());
     }
 
 
