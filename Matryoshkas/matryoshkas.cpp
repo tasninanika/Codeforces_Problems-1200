@@ -23,6 +23,7 @@ int main(){
         else{
             if(cur < run){
                 cnt += (run - cur);
+                run = cur;
             }
         }
     }
