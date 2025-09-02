@@ -26,7 +26,7 @@ int main(){
                 run = cur;
             }
             else{
-
+                run = cur;
             }
         }
     }
