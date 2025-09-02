@@ -16,6 +16,8 @@ int main(){
         for(int i = 0; i < n; i++){
             cin >> y[i];
         }
+
+        vector<long long> diff(n);
     }
 
 
