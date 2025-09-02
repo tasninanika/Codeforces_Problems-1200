@@ -21,7 +21,9 @@ int main(){
             cur++;
         }
         else{
+            if(cur < run){
 
+            }
         }
     }
 
