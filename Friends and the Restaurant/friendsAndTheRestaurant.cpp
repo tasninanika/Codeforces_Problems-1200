@@ -11,7 +11,7 @@ int main(){
 
         vector<long long> x(n), y(n);
         for(int i = 0; i < n; i++){
-
+            cin >> x[i];
         }
     }
 
