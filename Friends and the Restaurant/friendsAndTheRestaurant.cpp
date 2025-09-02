@@ -14,7 +14,7 @@ int main(){
             cin >> x[i];
         }
         for(int i = 0; i < n; i++){
-
+            cin >> y[i];
         }
     }
 
