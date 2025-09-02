@@ -30,7 +30,7 @@ int main(){
             }
 
             if(v[i] > prev + 1){
-
+                cnt += run;
             }
         }
     }
