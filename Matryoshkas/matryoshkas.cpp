@@ -41,8 +41,8 @@ int main(){
             }
             prev = v[i];
         }
+        cout << cnt << endl;
     }
-
 
     return 0;
 }
