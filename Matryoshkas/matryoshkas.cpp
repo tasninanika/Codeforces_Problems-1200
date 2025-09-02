@@ -20,6 +20,9 @@ int main(){
         if(v[i] == prev){
             cur++;
         }
+        else{
+
+        }
     }
 
 
