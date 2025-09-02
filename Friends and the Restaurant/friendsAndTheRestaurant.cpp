@@ -29,6 +29,7 @@ int main(){
             if(diff[l] + diff[r] <= 0){
                 ans++;
                 l++;
+                r--;
             }
         }
     }
