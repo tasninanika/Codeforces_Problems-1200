@@ -35,6 +35,7 @@ int main(){
             }
             cur = 1;
         }
+        prev = v[i];
     }
 
 
