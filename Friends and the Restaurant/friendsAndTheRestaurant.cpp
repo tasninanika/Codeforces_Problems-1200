@@ -35,9 +35,8 @@ int main(){
                 r--;
             }
         }
-        cout << ans << endl;
     }
-
+    cout << ans << endl;
 
     return 0;
 }
