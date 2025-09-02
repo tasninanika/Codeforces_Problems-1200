@@ -18,6 +18,9 @@ int main(){
         }
 
         vector<long long> diff(n);
+        for(int i = 0; i < n; i++){
+
+        }
     }
 
 
