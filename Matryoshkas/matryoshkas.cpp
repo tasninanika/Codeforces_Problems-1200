@@ -13,6 +13,8 @@ int main(){
     sort(v.begin(), v.end());
     v.push_back(1e9 + 3);
 
+    long long prev = v[0];
+
 
     return 0;
 }
