@@ -33,6 +33,7 @@ int main(){
                 cnt += run;
                 run = 0;
             }
+            cur = 1;
         }
     }
 
