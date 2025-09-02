@@ -35,6 +35,7 @@ int main(){
                 r--;
             }
         }
+        cout << ans << endl;
     }
 
 
