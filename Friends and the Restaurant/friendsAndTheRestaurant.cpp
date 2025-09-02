@@ -27,7 +27,7 @@ int main(){
         int l = 0, r = n - 1, ans = 0;
         while(l < r){
             if(diff[l] + diff[r] <= 0){
-
+                ans++;
             }
         }
     }
