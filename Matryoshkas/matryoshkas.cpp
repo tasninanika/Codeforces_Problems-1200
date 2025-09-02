@@ -11,6 +11,7 @@ int main(){
     }
 
     sort(v.begin(), v.end());
+    v.push_back(1e9 + 3);
 
 
     return 0;
