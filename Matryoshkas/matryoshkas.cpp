@@ -28,6 +28,10 @@ int main(){
             else{
                 run = cur;
             }
+
+            if(v[i] > prev + 1){
+
+            }
         }
     }
 
