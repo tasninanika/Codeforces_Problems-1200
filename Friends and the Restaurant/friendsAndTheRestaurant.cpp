@@ -7,7 +7,7 @@ int main(){
 
     while(t--){
         int n;
-        cin >> t;
+        cin >> n;
 
         vector<long long> x(n), y(n);
         for(int i = 0; i < n; i++){
@@ -35,8 +35,9 @@ int main(){
                 r--;
             }
         }
+        cout << ans << endl;
     }
-    cout << ans << endl;
+
 
     return 0;
 }
