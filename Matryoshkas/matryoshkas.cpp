@@ -5,41 +5,42 @@ int main(){
     int t;
     cin >> t;
 
+    while(t--){
+        int n;
+        cin >> n;
 
-    int n;
-    cin >> n;
-
-    vector<long long> v(n);
-    for(int i = 0; i < n; i++){
-        cin >> v[i];
-    }
-
-    sort(v.begin(), v.end());
-    v.push_back(1e9 + 3);
-
-    long long prev = v[0];
-    long long cur = 1, cnt = 0, run = 0;
-
-    for(int i = 1; i <= n; i++){
-        if(v[i] == prev){
-            cur++;
+        vector<long long> v(n);
+        for(int i = 0; i < n; i++){
+            cin >> v[i];
         }
-        else{
-            if(cur < run){
-                cnt += (run - cur);
-                run = cur;
+
+        sort(v.begin(), v.end());
+        v.push_back(1e9 + 3);
+
+        long long prev = v[0];
+        long long cur = 1, cnt = 0, run = 0;
+
+        for(int i = 1; i <= n; i++){
+            if(v[i] == prev){
+                cur++;
             }
             else{
-                run = cur;
-            }
+                if(cur < run){
+                    cnt += (run - cur);
+                    run = cur;
+                }
+                else{
+                    run = cur;
+                }
 
-            if(v[i] > prev + 1){
-                cnt += run;
-                run = 0;
+                if(v[i] > prev + 1){
+                    cnt += run;
+                    run = 0;
+                }
+                cur = 1;
             }
-            cur = 1;
+            prev = v[i];
         }
-        prev = v[i];
     }
 
 
