@@ -16,6 +16,10 @@ int main(){
     long long prev = v[0];
     long long cur = 1, cnt = 0, run = 0;
 
+    for(int i = 1; i <= n; i++){
+
+    }
+
 
     return 0;
 }
