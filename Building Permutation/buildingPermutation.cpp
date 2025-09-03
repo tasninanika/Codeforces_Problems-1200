@@ -14,7 +14,7 @@ int main(){
 
     long long min_moves = 0;
     for(int i = 0; i < n; ++i){
-
+        min_moves += abs(a[i] - (i + 1));
     }
 
 
