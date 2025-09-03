@@ -18,7 +18,7 @@ int main(){
 
     for(int i = 0; i < n; i++){
         while(j < n && a[j] <= a[i] + 5){
-
+            j++;
         }
     }
 
