@@ -10,6 +10,8 @@ int main(){
         cin >> a[i];
     }
 
+    sort(a.begin(), a.end());
+
 
     return 0;
 }
