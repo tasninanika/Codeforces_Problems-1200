@@ -16,7 +16,7 @@ int main(){
     for(int i = 0; i < n; ++i){
         min_moves += abs(a[i] - (i + 1));
     }
-
+    cout << min_moves << endl;
 
     return 0;
 }
