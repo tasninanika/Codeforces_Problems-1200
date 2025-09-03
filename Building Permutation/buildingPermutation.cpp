@@ -13,6 +13,9 @@ int main(){
     sort(a.begin(), a.end());
 
     long long min_moves = 0;
+    for(int i = 0; i < n; ++i){
+
+    }
 
 
     return 0;
