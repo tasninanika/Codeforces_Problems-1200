@@ -22,6 +22,7 @@ int main(){
         }
         ans = max(ans, j - i);
     }
+    cout << ans << endl;
 
     return 0;
 }
