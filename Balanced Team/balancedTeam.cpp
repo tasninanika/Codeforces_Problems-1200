@@ -17,7 +17,9 @@ int main(){
     int j = 0;
 
     for(int i = 0; i < n; i++){
+        while(j < n && a[j] <= a[i] + 5){
 
+        }
     }
 
     return 0;
