@@ -20,6 +20,7 @@ int main(){
         while(j < n && a[j] <= a[i] + 5){
             j++;
         }
+        ans = max(ans, j - i);
     }
 
     return 0;
