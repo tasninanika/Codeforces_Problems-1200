@@ -12,6 +12,8 @@ int main(){
 
     sort(a.begin(), a.end());
 
+    long long min_moves = 0;
+
 
     return 0;
 }
