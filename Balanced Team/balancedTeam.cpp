@@ -13,5 +13,7 @@ int main(){
 
     sort(a.begin(), a.end());
 
+    int ans = 0;
+
     return 0;
 }
