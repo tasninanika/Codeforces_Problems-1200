@@ -11,6 +11,10 @@ int main(){
 
         if(n % 2 == 0){
             long long pos = k % n;
+
+            if(pos == 0){
+
+            }
         }
     }
 
