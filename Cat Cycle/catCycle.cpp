@@ -3,8 +3,9 @@ using namespace std;
 #define long long ll;
 
 int main(){
-    ll n, k;
-    cin >> n >> k;
+    int t;
+
+
 
 
     return 0;
