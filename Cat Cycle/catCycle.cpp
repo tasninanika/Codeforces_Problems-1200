@@ -19,6 +19,7 @@ int main(){
         }
         else{
             long long half = n / 2;
+            long long extra = (k - 1) / half;
         }
     }
 
