@@ -22,6 +22,8 @@ int main(){
             long long extra = (k - 1) / half;
             long long pos = k + extra;
             pos = (pos - 1) % n + 1;
+
+            cout << pos << endl;
         }
     }
 
