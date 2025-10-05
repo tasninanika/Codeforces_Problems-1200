@@ -15,6 +15,7 @@ int main(){
             if(pos == 0){
                 pos = n;
             }
+            cout << pos << endl;
         }
     }
 
