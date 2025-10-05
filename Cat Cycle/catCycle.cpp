@@ -8,6 +8,10 @@ int main(){
     while(t--){
         long long n, k;
         cin >> n >> k;
+
+        if(n % 2 == 0){
+
+        }
     }
 
 
