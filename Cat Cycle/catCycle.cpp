@@ -17,6 +17,9 @@ int main(){
             }
             cout << pos << endl;
         }
+        else{
+
+        }
     }
 
 
