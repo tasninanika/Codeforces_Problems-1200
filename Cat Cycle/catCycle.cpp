@@ -10,7 +10,7 @@ int main(){
         cin >> n >> k;
 
         if(n % 2 == 0){
-
+            long long pos = k % n;
         }
     }
 
