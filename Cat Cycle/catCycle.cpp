@@ -18,7 +18,7 @@ int main(){
             cout << pos << endl;
         }
         else{
-
+            long long half = n / 2;
         }
     }
 
