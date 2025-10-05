@@ -13,7 +13,7 @@ int main(){
             long long pos = k % n;
 
             if(pos == 0){
-
+                pos = n;
             }
         }
     }
